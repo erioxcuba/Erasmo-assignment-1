@@ -50,7 +50,7 @@ public class Assignment1 {
         {
         	compAmount = calcCompoundingInterest (compAmount, yearInterestRate);
        		
-            System.out.println("After " + i*5 + " years, you would have: " + Math.round(compAmount));
+            System.out.println("After " + (i + 1)*5 + " years, you would have: " + Math.round(compAmount));
         }
         
         scanner.close();
